@@ -3,6 +3,9 @@ package hn.edu.ujcv.progra;
 public class OVecR2 {
     // miembros
 
+
+    // accesoras y mutadoras
+
     // metodos
     public OVecR2 suma(OVecR2 b){
         //TODO: implementar
@@ -19,7 +22,12 @@ public class OVecR2 {
         return 0.0f;
     }
 
-    
+    public double magnitud(){
+        //TODO: implementar
+        return 0.0f;
+    }
+
+
     // constructores
     public OVecR2(){}
 
