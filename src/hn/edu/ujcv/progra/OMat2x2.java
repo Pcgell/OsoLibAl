@@ -2,7 +2,8 @@ package hn.edu.ujcv.progra;
 
 public class OMat2x2 {
 
-    // miembros
+    // miembros  double m11,m12;
+    //           double m21,m22;
 
 
     // accesoras y mutadoras
