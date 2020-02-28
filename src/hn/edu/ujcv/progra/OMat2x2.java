@@ -6,8 +6,10 @@ public class OMat2x2 {
 
 
     // accesoras y mutadoras
-    //getFilaX
+    //getColX
     //getColY
+    //getFilaX
+    //getFilaY
 
     // metodos
 
@@ -32,6 +34,13 @@ public class OMat2x2 {
 
     public OMat2x2 mult(OVecR2 b){
         //TODO: implementar
+        //    m11  m12
+        //    m21  m22
+        //
+        //
+        //  m11   =  a.m11 * b.m11 + a.m12 * b.m21
+        //  m12   =  a.m11 * b.m12 + a.m12 * b.m22
+        //
         return new OMat2x2();
     }
 
