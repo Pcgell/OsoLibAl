@@ -52,11 +52,22 @@ public class OMat2x2 {
 
     // Metodos de la clase.
     public static OMat2x2 rot(double alpha){
-        //TODO: implementar
-        return new OMat2x2();
+        // cos a   -sin a
+        // sin a   cos a
+
+        double  m11,m12,
+                m21,m22;
+
+        m11 = Math.cos(alpha);
+        m12 = -Math.sin(alpha);
+        m21 = Math.sin(alpha);
+        m22 = Math.cos(alpha);
+        return new OMat2x2(m11,m12,m21,m22);
     }
 
     public static OMat2x2 identidad(){
+
+
         //TODO: implementar
         return new OMat2x2();
     }
@@ -71,6 +82,5 @@ public class OMat2x2 {
                    double m21, double m22){}
 
     public OMat2x2(OVecR2 a, OVecR2 b, boolean esColumna){}
-
 
 }
