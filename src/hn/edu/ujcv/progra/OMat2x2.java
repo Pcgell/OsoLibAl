@@ -73,10 +73,22 @@ public class OMat2x2 {
     }
 
 
+    // v * M => vector
+
+    public OVecR2 mult(OVecR2 a){
+        //             x                        y
+        //  ( a.x * m11 + a.y * m21 , a.x * m12 + a.y * m22)
+        //
+        return new OVecR2();
+    }
+
+
     // constructores
     public OMat2x2(){}
 
     public OMat2x2(OVecR2 a){}
+
+    public OMat2x2(OMat2x2 a){}
 
     public OMat2x2(double m11, double m12,
                    double m21, double m22){}
